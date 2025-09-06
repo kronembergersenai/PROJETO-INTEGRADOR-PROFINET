@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto PROFINET - Dashboard Técnico</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=wnUE6XpDKqa7UaDtFjunE9M0so4mrjp-ioYoeonn_OZgBUCRo6it1nVpeuEsdybN26pcezgWvww1kb8QdVLWBhSn91vR6NkrUMXWu8IiOZ0n_OoCRNygDpTZN-2ZbAH7xGVi7p_4i3NiXMWgmcjgfuFgNVtVaaVDtyBAwDX5ZzVmLhgC1qvRxs8N5aMUWS3yIoljckpquuw2DKjbAnuyKkqXTNWeiidpHf9Z0GYEC0ozYeuiaMPyl9anBPAUO0gWsleaxt_VN6gyHFvdRMfxn5XrLosFUETPltUJPVX02BiO2sI_3pVjxBWrYedrhe6w94j8JDQ5lWYGd7GSmIGSvBMiEskCGvltx8V80fU60Z_Wb3x0hzBxYh5a3NSTHfvRRUTboKWeHn38iYbJiXnrlp2dob92RrR7TC3PsHKcAcoriUxC3jvgwLXfWK7RY21mdlj4rbNFiQ8nzDgGh7HuuPXOzg9d7J6C-FzmGNS-J4H6jHYXke3tq0YzFrtsJ4bUxVPbMkO-yDAAockT6y2V2dPWsw7o8sJqvSWIlnj9G4rkN75d27_2t0a9qyFP7reHVH6X9i1kR8qjpf3So5_WReePs4gRHheI8EHXQykJBQ5iwB2x4k20P5oaZ-WfSm3CvE9IziRTKjoV5UFHyVf1PlWRTVVQqW7l_LsJTLzePxbUM1GRdA88mv7S-iYlQGnDBUdEgY5nD9e69JcaCP3GbaZnsI3ufJeBANtShv63XAL8J0plQRMItStLvfslyK2qr2z4GPnf4I_Edt8UnvfGep-28xoQsxUvEVqsScEgPznpMxsB-63xBZJ6xj5ekuZVnTm6Ld46DsElu3kAlBIw1vvnalgr00NuDeJZ7CDzUUiSp60d1UL6khD3MpG0ZCXVgaYrqNx5k0MvmlGJ9JlFpUF8ZdiKW2tREYSO2Ld9vLU245qR3brlFLZh3P79aTYHPvCZbPHsMX0Fj8h6dDGNNhox8M8NKJvSB_826H_XQ9m_NO3bmpU4dLaQr6f3UWZNQ6OEvTtTd52zFchIeqZqO7YulhsGeYQuFv7IG52DS38-Ub6PnLGHE6Vbt5cUg_k2sgX3rcejgVjW3-ELf_UpKho1RR81GK7bjLhAUN6a9SdKATKNeTGz6Vr4JFDzjRgR8sabTjSeoFXRSuxbgS5cOE8dGD2M8bLhk1V7QYkbx_iCVV5sdV3vOHPZKDzrXIYAdvYshlGc3FBiniXwNpCeYxnvaOnooXrE1uR1UqVTm8S0hxZWBo4af4C_5n2xARGCVrc4t1uWEKw9lRFPc7RkK2itc8ScWYfFmRIQK_5Ad6y_40n6KgUpdNfu2LSwRzfZm4PKMnSDwdU4Hf6NxxSQHFG_vGw-Z4m4RYzC5hskAhSl9HcEaBzZWtgCzG_-W2lyjft-mNvuC0_l29LkvSgretatf5v234TwZnD2KDw8r6qpgQHNxvttLbvNcgJLOpt4rrU3FZFjR4tkOLEk9CcfuDBfOkixbfP-n-HnRYmFph9nyclLchd4xDbR_27zlaNsz0U3q65-3enZ6mEokDuYKCuOajNCHRS9wmbddp380kxhXgPH6r5cabL2uvAl0oBv8S3mUIAiHuRTmCU0eNR1iTWwVDHhogmEPB9dGnaHuwFUkFwYxGX-HSl38owBRVdCfZ9QPSWyUNifH8opzLpdGH5HeimrrcG7dt9BOFCDZ3oP_taKyvJmtc25nWcS5hKHcYIns-9cBR68-M43fDL52e2IYvv4ASCAt2N-5-IIwbVblSZZPMQgegLaEe9rdQAU1DTdfiI-cIaIpcSvrClEffiSb0X0M55imp1tVc-6HdV0UwkW2WUYBjspXjW40Tavv0B2JA55k5gQ9MGTe-q8zpLkPfBcc0JPZCKgvH1ZkyavSAf1TTd9HRLQIs4Eub_N6L-yrv4n7fhw33IIxDemKe7xvv2tf4kqHGeYgOg9gDDmug1skfdApt8fn7rGuamvQH18cyxl2pZdMjW2vCBKXNy-yKy-D2E-oJWfgo1uvYQtmOiLY_CBa5eE2yldJE2c7YMJUM1zl5Qru3mHWfjWj7ATtCTqkmPiaqwskA-6BT9ItWS_44hoACcnHZit7Nm7UNPNvESEkorRySNbyiaVN7MP7qIVHe9qqSvzxgFU6kWeWBBRkOJuj2WK0CC4nQDtZJqzDDba6bjsNALQ6jaXgJ8WsxksTFgm_1awxEABfO5685AFpBx7UfZMd8aA0jKVQyEM1lvWR9_Vdkv8i3ruTZ_oNiXhkjXedBCA9s2UvNE" charset="UTF-8"></script></head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-network-wired"></i>
+                <h1>PROFINET Project</h1>
+            </div>
+            <nav class="nav">
+                <a href="#inicio">Início</a>
+                <a href="#etapas">Etapas</a>
+                <a href="#tecnologias">Tecnologias</a>
+                <a href="#demonstracoes">Demonstrações</a>
+                <a href="#entregas">Entregas</a>
+                <a href="#recursos">Recursos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Implementação de Sistema PROFINET</h2>
+                    <p class="hero-subtitle">Transforme processos industriais com comunicação em tempo real</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <i class="fas fa-microchip"></i>
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">CLPs Integrados</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-desktop"></i>
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">IHM KTP700</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-clock"></i>
+                            <span class="stat-number">12</span>
+                            <span class="stat-label">Semanas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="etapas" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-list-check"></i>
+                    Etapas do Projeto
+                </h2>
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-cog"></i>
+                            <h3>1. Controle Local Básico</h3>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>Objetivo:</strong> Desenvolver sistema de controle simples sem integração de rede</p>
+                            <div class="checklist">
+                                <h4>Atividades:</h4>
+                                <ul>
+                                    <li>Configurar CLP S7-1215 no TIA Portal</li>
+                                    <li>Programar lógicas básicas de automação</li>
+                                    <li>Criar interface local simples</li>
+                                    <li>Realizar testes funcionais</li>
+                                    <li>Documentar todas as configurações</li>
+                                </ul>
+                                <h4>Entregáveis:</h4>
+                                <ul>
+                                    <li>Programa funcional do CLP</li>
+                                    <li>Documentação técnica completa</li>
+                                    <li>Relatório de testes realizados</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-project-diagram"></i>
+                            <h3>2. Planejamento PROFINET</h3>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>Objetivo:</strong> Estudar e planejar implementação da rede industrial</p>
+                            <div class="checklist">
+                                <h4>Atividades:</h4>
+                                <ul>
+                                    <li>Definir topologia de rede adequada</li>
+                                    <li>Especificar endereçamento IP</li>
+                                    <li>Planejar integração de equipamentos</li>
+                                    <li>Elaborar cronograma detalhado</li>
+                                    <li>Validar arquitetura proposta</li>
+                                </ul>
+                                <h4>Entregáveis:</h4>
+                                <ul>
+                                    <li>Diagrama de arquitetura de rede</li>
+                                    <li>Plano de endereçamento completo</li>
+                                    <li>Especificações técnicas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-network-wired"></i>
+                            <h3>3. Demonstração PROFINET</h3>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>Objetivo:</strong> Implementar rede funcional conectando CLPs e IHM</p>
+                            <div class="checklist">
+                                <h4>Atividades:</h4>
+                                <ul>
+                                    <li>Configurar rede PROFINET no TIA Portal</li>
+                                    <li>Integrar S7-314C-2PN/DP e S7-1215</li>
+                                    <li>Conectar IHM KTP700 BASIC à rede</li>
+                                    <li>Programar comunicação entre dispositivos</li>
+                                    <li>Testar comunicação e diagnóstico</li>
+                                </ul>
+                                <h4>Entregáveis:</h4>
+                                <ul>
+                                    <li>Sistema PROFINET operacional</li>
+                                    <li>Programas de teste validados</li>
+                                    <li>Manual de operação completo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-monitor-heart-rate"></i>
+                            <h3>4. Sistema Supervisório</h3>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>Objetivo:</strong> Desenvolver interface de supervisão integrada</p>
+                            <div class="checklist">
+                                <h4>Atividades:</h4>
+                                <ul>
+                                    <li>Configurar Elipse E3 para PROFINET</li>
+                                    <li>Desenvolver telas de supervisão</li>
+                                    <li>Implementar alarmes e históricos</li>
+                                    <li>Integrar Node-RED para análises</li>
+                                    <li>Criar dashboard web responsivo</li>
+                                </ul>
+                                <h4>Entregáveis:</h4>
+                                <ul>
+                                    <li>Sistema supervisório funcional</li>
+                                    <li>Dashboard web interativo</li>
+                                    <li>Manual completo do usuário</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-sensors"></i>
+                            <h3>5. Integração Avançada</h3>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>Objetivo:</strong> Expandir sistema com sensores e controles inteligentes</p>
+                            <div class="checklist">
+                                <h4>Atividades:</h4>
+                                <ul>
+                                    <li>Integrar sensores indutivos e capacitivos</li>
+                                    <li>Configurar comunicação HART</li>
+                                    <li>Implementar controle de processo</li>
+                                    <li>Desenvolver algoritmos avançados</li>
+                                    <li>Validar performance integrada</li>
+                                </ul>
+                                <h4>Entregáveis:</h4>
+                                <ul>
+                                    <li>Sistema de controle expandido</li>
+                                    <li>Algoritmos implementados</li>
+                                    <li>Relatório de performance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="section section-dark">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-microchip"></i>
+                    Tecnologias e Equipamentos
+                </h2>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <i class="fas fa-memory"></i>
+                        <h4>CLPs Siemens</h4>
+                        <p>S7-314C-2PN/DP<br>S7-1215 DC/DC/DC</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-desktop"></i>
+                        <h4>IHM</h4>
+                        <p>KTP700 BASIC<br>7" TFT PROFINET</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Software</h4>
+                        <p>TIA Portal V17/V19<br>Elipse E3, Node-RED</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-satellite-dish"></i>
+                        <h4>Sensores</h4>
+                        <p>Indutivos, Capacitivos<br>Ópticos, Arduino Kits</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="demonstracoes" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-flask"></i>
+                    Demonstrações Práticas
+                </h2>
+                <div class="demo-grid">
+                    <div class="demo-card">
+                        <div class="demo-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <h4>Controle Distribuído</h4>
+                        <p>Demonstração de coordenação entre múltiplos CLPs com sincronização em tempo real e recuperação de falhas.</p>
+                    </div>
+                    <div class="demo-card">
+                        <div class="demo-icon">
+                            <i class="fas fa-hand-point-up"></i>
+                        </div>
+                        <h4>Interface Integrada</h4>
+                        <p>Operação através da IHM KTP700 com visualização de status de rede e diagnóstico avançado.</p>
+                    </div>
+                    <div class="demo-card">
+                        <div class="demo-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Supervisão e Análise</h4>
+                        <p>Dashboard em tempo real com análise de dados e relatórios automatizados de performance.</p>
+                    </div>
+                    <div class="demo-card">
+                        <div class="demo-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h4>Controle de Processo</h4>
+                        <p>Controle automatizado de nível, vazão e temperatura com algoritmos de otimização.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="entregas" class="section section-dark">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-tasks"></i>
+                    Entregas do Projeto Integrador
+                </h2>
+                <div class="delivery-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Relatório Técnico</h4>
+                            <p>Documento detalhado com fundamentação teórica sobre PROFINET, metodologia de implementação, resultados obtidos e conclusões.</p>
+                            <span class="timeline-tip">Mínimo 10 páginas, máximo 14 páginas - seguindo normas ABNT</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Business Model Canvas</h4>
+                            <p>Análise da viabilidade econômica com proposta de valor, segmentos de clientes, estrutura de custos e parcerias estratégicas.</p>
+                            <span class="timeline-tip">Utilize a ferramenta online do SEBRAE para desenvolvimento</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Protótipo Funcional</h4>
+                            <p>Sistema PROFINET em escala reduzida demonstrando funcionalidades principais e validação dos conceitos propostos.</p>
+                            <span class="timeline-tip">Pode ser físico ou virtual - documente todo o processo</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Pitch (Vídeo)</h4>
+                            <p>Apresentação de 1-3 minutos no YouTube explicando problema, solução, benefícios e demonstração prática.</p>
+                            <span class="timeline-tip">Seja criativo! Use ferramentas como PowToon ou grave você mesmo</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Banner de Apresentação</h4>
+                            <p>Material visual (90cm x 120cm) com resumo do projeto, arquitetura implementada e resultados obtidos.</p>
+                            <span class="timeline-tip">Inclua versão A4 no relatório técnico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-tools"></i>
+                    Recursos Disponíveis
+                </h2>
+                <div class="resources-grid">
+                    <div class="resource-card">
+                        <div class="resource-header">
+                            <i class="fas fa-industry"></i>
+                            <h4>FabLab</h4>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-print"></i> Impressora 3D para componentes customizados</li>
+                            <li><i class="fas fa-cut"></i> Cortadora a laser para painéis</li>
+                            <li><i class="fas fa-cogs"></i> CNC pequeno para usinagem</li>
+                        </ul>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-header">
+                            <i class="fas fa-flask"></i>
+                            <h4>Laboratório</h4>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-desktop"></i> Bancadas de teste e desenvolvimento</li>
+                            <li><i class="fas fa-chart-line"></i> Simuladores de processo</li>
+                            <li><i class="fas fa-tools"></i> Equipamentos de medição</li>
+                        </ul>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-header">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Suporte Técnico</h4>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-user-tie"></i> Instrutores especializados</li>
+                            <li><i class="fas fa-book"></i> Biblioteca técnica</li>
+                            <li><i class="fas fa-question-circle"></i> Consultoria em projetos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Projeto PROFINET</h4>
+                    <p>Implementação de sistema de automação industrial moderno e escalável para otimização de processos.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Tecnologias</h4>
+                    <ul>
+                        <li>Siemens TIA Portal</li>
+                        <li>CLPs S7-300/S7-1200</li>
+                        <li>PROFINET Industrial</li>
+                        <li>Elipse E3 & Node-RED</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li>FabLab Completo</li>
+                        <li>Laboratório de Automação</li>
+                        <li>Suporte Técnico SENAI</li>
+                        <li>Equipamentos Modernos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SENAI - Projeto Integrador PROFINET. Desenvolvido para estudantes de automação industrial.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
